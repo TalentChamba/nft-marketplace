@@ -79,7 +79,7 @@ const Navbar = ({ cartCount, openCart, connectWallet, toggleSidebar }) => {
                         </Badge>
                     </IconButton>
                     <IconButton color="inherit" onClick={handleMenuOpen}>
-                        <img src="img/avatars/avatar.jpg" alt="User" style={styles.avatar}/>
+                        <img src="img/avatars/avatar-2.jpg" alt="User" style={styles.avatar}/>
                     </IconButton>
                 </div>
                 <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose} PaperProps={{ sx: styles.menu }}>
